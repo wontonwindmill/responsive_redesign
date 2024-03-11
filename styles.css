@@ -1,0 +1,176 @@
+#navbar{
+  margin-top: 1em;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  display: flex;
+  width: fit-content;
+  background-color: rgb(10, 183, 27);
+  justify-content: center;
+  padding: 0.5em 2em 0.5em 2em;
+  
+  border-radius: 10px;
+  h2{
+    margin:0px;
+    font-size:larger;
+  }
+  button {
+    background-color: transparent;
+    border: 0em;
+    font-size: larger;
+    color: white;
+    text-shadow: 0.5px 0.5px 0.5px rgb(42, 42, 42);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    
+  }
+  button:hover{
+    color: rgb(200,200,200);
+  }
+}
+#siteLogo{
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+#main-body{
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 20px;
+  width: 80%;
+  background-color: rgb(240, 214, 77);
+}
+#flags-container{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0.5em;
+}
+#flags-body{
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 15px;
+  width: 98%;
+  background-image: url("assets/eritrea.png");
+  background-repeat: repeat-y;
+}
+#menu-container{
+  margin-top: 1em;
+  margin-bottom: 1em; 
+  display: flex;
+  justify-content: center;
+}
+#menu-body{
+  width: 95%;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  background-color: rgba(255, 253, 238, 0.95);
+  border-radius: 10px;
+  h2{
+    text-decoration: underline;
+  }
+}
+body {
+  display: flex;  
+  justify-content: center;
+  background-color: rgb(16, 73, 17);
+}
+h1, h2, h3 {
+  color:rgb(0, 70, 70);
+  font-family: Arial;
+  text-align: center;
+}
+h4 {
+  margin-top: 1em;
+  margin-bottom: 0.5em;   
+}
+hr {
+  width: 90%;
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+p {
+  text-align: start;
+}
+li {
+  margin-top:1em;
+  margin-bottom:1em;
+}
+table {
+  width: 95%;
+}
+th {
+  text-align: start;
+}
+
+.header{
+  display: flex;
+  justify-content: center;
+}
+.beer-subtitle{
+  font-size: smaller;
+}
+ 
+.menu-section {
+  margin-top: 4em;
+  
+}
+.wine-section {
+  padding-left: 2em;
+  padding-bottom: 2em;
+}
+.image-with-caption {
+  width: 20vw;
+  min-width: 140px;
+  float: right;
+  position: relative;
+  img {
+    min-width: 140px;
+    width: 20vw;
+  }
+  p {
+    bottom: 15%;
+    left: 9%;
+    position: absolute;
+    margin: 0em;
+    transform: rotate(8deg);
+  }
+  
+}
+
+@media screen and (max-width: 800px) {
+  #main-body {
+    width: 100%;
+    border-radius: 0px;
+    
+  }
+  body {
+    margin: 0px;
+  }
+}
+@media screen and (max-width: 660px) {
+  #navbar {
+    font-size: 14px;
+  }
+  
+}
+@media screen and (max-width: 580px) {
+  #navbar {
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 426px) {
+  
+  #navbar {
+    font-size: 7px;
+  }
+  .menu-section {
+    font-size: 14px;
+    ol {
+      padding-left: 20px; 
+    }
+    
+  }
+  .wine-section {
+    font-size: 14px;
+  }
+  #menu-body {
+    width: 99%;
+  }
+
+}
